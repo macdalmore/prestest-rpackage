@@ -1,0 +1,68 @@
+---
+title: "Pandoced revealjs pres 2018"
+author: "Mac Dalmore"
+date: "8 March 2018"
+output:
+  md_document:
+    variant: markdown
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Generate with Pandoc
+
+## Pandoc sample
+
+```{r sample, eval = FALSE, echo = TRUE}
+% Pandoc command line (from presentation directory)
+pandoc -t revealjs -s -o pandoc_pres.html pandoc_pres.md _pres.yaml -V revealjs-url=./reveal.js-3.6.0
+```
+
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast {data-background="#dddddd"}
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+# Inclusion of R code
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
