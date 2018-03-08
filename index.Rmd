@@ -1,0 +1,38 @@
+---
+title: "revealjs R package pres 2018"
+author: "Mac D"
+date: "8 March 2018"
+output: 
+  revealjs::revealjs_presentation:
+    theme: solarized
+    transition: none
+    highlight: zenburn
+    center: true
+    keep_md: false
+    self_contained: false
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast {data-background="#dddddd"}
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
